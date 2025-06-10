@@ -8,7 +8,10 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #fff8f2;
+      /* Fundo rosa bebê com padrão dourado discreto */
+      background-color: #F8E6E0;
+      background-image: radial-gradient(circle, #D4AF37 3px, transparent 4px);
+      background-size: 40px 40px;
       color: #333;
     }
 
@@ -101,34 +104,4 @@
 
   <header>
     <h1>B. Souza Store</h1>
-    <p>Beleza, cuidado e estilo em um só lugar</p>
-  </header>
-
-  <section class="catalogo">
-    <div class="produto">
-      <img src="https://via.placeholder.com/300x200?text=Hidratante+Lyra" alt="Hidratante Lyra">
-      <h2>Hidratante Lyra</h2>
-      <p>R$ 15,00</p>
-    </div>
-    <div class="produto">
-      <img src="https://via.placeholder.com/300x200?text=Body+Splash+Ilia" alt="Body Splash Ilia">
-      <h2>Body Splash Ilia</h2>
-      <p>R$ 47,00</p>
-    </div>
-    <div class="produto">
-      <img src="https://via.placeholder.com/300x200?text=Kit+Mamãe+e+Bebê" alt="Kit Mamãe e Bebê">
-      <h2>Kit Mamãe e Bebê</h2>
-      <p>R$ 50,00</p>
-    </div>
-  </section>
-
-  <a class="whatsapp" href="https://wa.me/55SEUNUMERO" target="_blank">
-    💬 Fale comigo no WhatsApp
-  </a>
-
-  <footer>
-    &copy; 2025 B. Souza Store - Todos os direitos reservados.
-  </footer>
-
-</body>
-</html>
+    <p
